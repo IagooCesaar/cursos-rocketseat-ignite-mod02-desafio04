@@ -25,6 +25,7 @@ class UsersRepository implements IUsersRepository {
       email,
       admin: false,
       created_at: new Date(),
+      updated_at: new Date(),
     });
     this.users.push(user);
 
@@ -44,6 +45,7 @@ class UsersRepository implements IUsersRepository {
   turnAdmin(receivedUser: User): User {
     Object.assign(receivedUser, {
       admin: true,
+      updated_at: new Date(),
     });
 
     const userIndex = this.users.findIndex(
