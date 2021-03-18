@@ -1,0 +1,11 @@
+{
+  "openapi": "3.0.0",
+  "info": {
+    "title":"Challenge #04, API  Documentation",
+    "description": "Documenting my API with Swagger | Challenge #05", 
+    "version": "1.0.0",
+    "contact": {
+      "email": "iagocesar.nogueira@gmail.com"
+    }
+  }
+}
