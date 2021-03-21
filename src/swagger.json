@@ -108,7 +108,8 @@
             "name": "user_id",
             "in":"header",
             "schema": {
-              "type":"string"
+              "type":"string",
+              "format":"uuid"
             },
             "required": true
           }
@@ -191,7 +192,8 @@
             "name": "user_id",
             "in":"path",
             "schema": {
-              "type":"string"
+              "type":"string",
+              "format":"uuid"
             },
             "required": true
           }
@@ -264,7 +266,8 @@
             "name": "user_id",
             "in":"path",
             "schema": {
-              "type":"string"
+              "type":"string",
+              "format":"uuid"
             },
             "required": true
           }
